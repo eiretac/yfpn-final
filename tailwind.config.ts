@@ -22,10 +22,12 @@ const config = {
         'span-bg': 'var(--span-bg)'
       },
       colors: {
+        // Add your brand colors first
+        primary: '#0d294b',       // Your logo text color
+        header: '#f9f8f5',       // Your header background
+        
+        // Keep existing variables for other elements
         background: 'var(--background)',
-        primary: {
-          DEFAULT: 'var(--primary)'
-        },
         'button-secondary': 'var(--button-secondary)',
         'button-text': 'var(--button-text)',
         'text-secondary': 'var(--text-secondary)',
@@ -37,7 +39,6 @@ const config = {
         dropdownHover: 'var(--dropdown-hover)',
         buttonSecondary: 'var(--button-secondary)'
       },
-
       fontFamily: {
         sans: ['var(--font-space-grotesk)', 'var(--rubik)']
       },
