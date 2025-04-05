@@ -18,12 +18,13 @@ export const Header: FC<Props> = ({ locale }) => {
       <Link lang={locale} href='/'>
         <div className='flex flex-row items-center'>
           {/* Replaced LogoIcon with Image component */}
-          <div className='mb-2 h-14 w-14 relative'>
+         <div className='mb-2 h-14 w-14 relative'>
             <Image
               src="/logo.png"
               alt="YFPN Logo"
               fill
               className="object-contain dark:invert-0"
+              priority
             />
           </div>
           {/* Updated text color */}
